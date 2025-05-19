@@ -1,0 +1,20 @@
+#cover {
+  height: 150px;
+}
+
+#main-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1025px) {
+  /* #mobile {
+    color: white !important;
+  } */
+
+  #main-part {
+    flex-direction: column;
+  }
+}
